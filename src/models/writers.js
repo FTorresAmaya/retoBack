@@ -10,7 +10,7 @@ const writerSchema = new mongoose.Schema({ //Agregar campos de writers
     },
     joinDate: {
         type: Date,
-        required: true,
+        required: false,
     },
     biography: {
         type: String,
